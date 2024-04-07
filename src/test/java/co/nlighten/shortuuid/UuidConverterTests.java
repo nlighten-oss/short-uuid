@@ -1,6 +1,5 @@
 package co.nlighten.shortuuid;
 
-import co.nlighten.shortuuid.UuidConverter;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -38,5 +37,13 @@ public class UuidConverterTests {
         var uuid = UuidConverter.namedByVersion(5, ns, "widget/1234567890");
         var expected = UUID.fromString("a35477ae-bfb1-5f2e-b5a4-4711594d855f");
         Assertions.assertEquals(expected, uuid);
+    }
+
+    @Test
+    void convertToBase64() {
+        var uuid = UUID.randomUUID();
+        var b64 = UuidConverter.toBase64(uuid);
+        var result = UuidConverter.fromBase64(b64);
+        Assertions.assertEquals(uuid, result);
     }
 }
