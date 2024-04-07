@@ -1,8 +1,10 @@
 # short-uuid
 
-[![Maven Central](https://res.cloudinary.com/practicaldev/image/fetch/s--A2crg8Rq--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/maven-central/v/co.nlighten/short-uuid.svg%3Flabel%3DMaven%2520Central%26logo%3Dapachemaven)](https://central.sonatype.com/artifact/co.nlighten/short-uuid)
-[![Release](https://res.cloudinary.com/practicaldev/image/fetch/s--OZF8A8Pg--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/v/release/nlighten-oss/short-uuid%3Flogo%3DGitHub)](https://github.com/nlighten-oss/short-uuid/releases)
-[![License](https://res.cloudinary.com/practicaldev/image/fetch/s--_6Z6Z6Z_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://img.shields.io/github/license/nlighten-oss/short-uuid.svg%3Flogo%3DOpen%20Source%20Initiative)](./LICENSE)
+[![Maven Central Version](https://img.shields.io/maven-central/v/co.nlighten/short-uuid)](https://central.sonatype.com/artifact/co.nlighten/short-uuid)
+[![javadoc](https://javadoc.io/badge2/co.nlighten/short-uuid/javadoc.svg)](https://javadoc.io/doc/co.nlighten/short-uuid)
+[![Build](https://github.com/nlighten-oss/short-uuid/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nlighten-oss/short-uuid/actions/workflows/ci.yml)
+[![GitHub Release](https://img.shields.io/github/v/release/nlighten-oss/short-uuid)](https://github.com/nlighten-oss/short-uuid/releases)
+[![License](https://img.shields.io/github/license/nlighten-oss/short-uuid)](./LICENSE)
 
 Short UUID conversion and generation library for Java.
 - Can make a UUID shorter in string format (down to 22 characters)
